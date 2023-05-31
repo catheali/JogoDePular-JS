@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.game-board {
+	width: 80%;
+	height: 200px;
+	border-bottom: 8px solid #d67524;
+	margin: 0 auto;
+	background: linear-gradient(#87CEEB, #E0F6FF);
+	position: relative;
+	overflow: hidden;
+}
+
+.iniciar {
+	width: 100%;
+	top: -140px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn {
+	width: 150px;
+	height: 50px;
+	color:#E0F6FF;
+	background: #F54C11;
+	border: none;
+	border-radius: 8px;
+
+}
+.game-board p {
+	font-family: Helvetica, sans-serif;
+	color: #333;
+	text-align: right;
+	margin-right: 10px;;
+}
+
+.panel {
+	width: 800px;
+	position: absolute;
+	bottom: -10px;
+	width: 150px;
+}
+
+.sol {
+	width: 200px;
+	left: 0;
+	position: absolute;
+	bottom: -38px;
+}
+
+.clouds{
+	position: absolute;
+	width: 150px;
+
+}
+.sun-clouds {
+	position: absolute;
+	width: 150px;	
+}
+
+.jump {
+	animation: jump 500ms ease-out;
+}
+
+@keyframes clouds-animation {
+	to{
+		right:-150px ;
+	}
+	from {
+		right: 100%;
+	}
+}
+
+@keyframes sun-clouds-animation {
+	to{
+		right: -100px ;
+	}
+	from {
+		right: 140%;
+	}
+}
+
+@keyframes panel-animation {
+	from{
+		right: -150px;
+	}
+	to {
+		right: 100%;
+	}
+}
+
+@keyframes jump {
+	0% {
+		bottom: -38px;
+	}
+	40% {
+		bottom: 90px;
+	}
+	50% {
+		bottom: 90px;
+	}
+	60% {
+		bottom: 80px;
+	}
+
+	100% {
+		bottom:  -35px;
+	}
+}
