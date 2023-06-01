@@ -44,7 +44,10 @@ function loop() {
 function playAgain(){
 	if(btn.innerHTML == 'Iniciar'){
 		return loop();
-	}	//implementar função de jogar de novo;
+	}	
+	else{
+		location.reload(true);
+	}//implementar função de jogar de novo;
 }
 
 function scorePoints(point) {
