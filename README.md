@@ -16,7 +16,8 @@ Para executar o jogo, siga as etapas abaixo:
 
 <div align="center">
   
-  ![image](https://github.com/catheali/JogoDePular-JS/assets/108311763/184beaa0-c27d-4402-960e-88ac125bc05c)
+![image](https://github.com/catheali/JogoDePular-JS/assets/108311763/e0da2561-e8ac-4792-a130-f3cf9f4606c2)
+
   
 </div>
 
